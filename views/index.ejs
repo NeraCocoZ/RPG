@@ -1,0 +1,32 @@
+<!--
+    파일 이름: index.ejs
+    파일 경로: /views
+    파일 작성자: NeraCocoZ (NeraCocoZ@gmail.com)
+    파일 작성일: 2023-06-06
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy World</title>
+
+    <!-- 스크립트 로드 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> <!-- JQUERY -->
+    <script src="/socket.io/socket.io.js"></script> <!-- Socket.IO -->
+    <script src="/script/index.js"></script> <!-- index -->
+
+    <!-- 스타일시트 로드 -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Simple RPG V 1.0.0</h1>
+    <div style="display: flex; justify-content : center;">
+        <div id="textarea" readonly="true"></div><br>
+    </div>
+    
+    <input id="input" type="text" placeholder="입력후 Enter 클릭!"><button id="button">전송</button>
+</body>
+</html>
