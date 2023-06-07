@@ -37,6 +37,11 @@ let indexRouter = require("./router/index");
 
 app.use("/", indexRouter);
 
+// 소켓 서버 라우터
+let socketRouter = require("./socket");
+io.sockets.on("connection", socketRouter);
+
+
 // http 서버 실행
 server.listen(port, address, () => {
     console.log(`${chalk.blueBright("[ 서버 ]")} 서버가 실행됬습니다.`);
