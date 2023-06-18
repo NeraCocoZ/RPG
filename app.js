@@ -34,12 +34,17 @@ app.use(express.static("public")); // Public 정적 폴더
 
 // Express 라우터
 let indexRouter = require("./router/index");
+let apiRouter = require("./router/api");
 
 app.use("/", indexRouter);
+app.use("/api", apiRouter);
 
 // 소켓 서버 라우터
 let socketRouter = require("./socket");
 io.sockets.on("connection", socketRouter);
+
+// 환경변수 파일 선언
+require("dotenv").config();
 
 
 // http 서버 실행

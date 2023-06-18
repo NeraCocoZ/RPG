@@ -7,6 +7,7 @@
 
 // 모듈 선언
 const fs = require("fs"); // File System
+const village = require("./functoin/village")
 
 // 소켓
 function sockets(socket){
@@ -24,11 +25,14 @@ function login(userData){
     // 만약 유저 파일이 존재한다면
     if(userFind){
         let userFileData = fs.readFileSync(`./userData/${userId}.json`, {encoding: "utf-8"});
+        let villageJson = JSON.parse(fs.readFileSync("./JSON/village.json", {encoding: "utf-8"}));
         let userDataJson = JSON.parse(userFileData);
 
         // 만약 비밀번호가 일치한다면
         if(userDataJson.password == userPw){
-            this.emit("login", );
+            let villageCode = userDataJson.gameData.lastVillage;
+            
+            this.emit("login", villageJson.data[0].function);
         }
         else this.emit("login", false);
         

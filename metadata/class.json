@@ -1,0 +1,450 @@
+{
+    "0th": {
+        "Warrior": {
+            "name": "전사",
+            "nameEng": "Warrior",
+            "code": 1000,
+            "prevClass": [],
+            "nextClass": [1100, 1200, 1300],
+            "useWeapon": [101, 102, 103]
+        },
+        "MartialArtist": {
+            "name": "무도가",
+            "nameEng": "MartialArtist",
+            "code": 2000,
+            "prevClass": [],
+            "nextClass": [2100, 2200],
+            "useWeapon": [201, 202]
+        },
+        "Rogue": {
+            "name": "로그",
+            "nameEng": "Rogue",
+            "code": 3000,
+            "prevClass": [],
+            "nextClass": [3100, 3200],
+            "useWeapon": [301, 302]
+        },
+        "Marksman": {
+            "name": "사수",
+            "nameEng": "Marksman",
+            "code": 4000,
+            "prevClass": [],
+            "nextClass": [4100, 4200],
+            "useWeapon": [401, 402]
+        },
+        "Magician": {
+            "name": "마법사",
+            "nameEng": "Magician",
+            "code": 5000,
+            "prevClass": [],
+            "nextClass": [5100, 5200, 5300],
+            "useWeapon": [501, 502, 503]
+        },
+        "DarkMagician": {
+            "name": "흑마법사",
+            "nameEng": "DarkMagician",
+            "code": 6000,
+            "prevClass": [],
+            "nextClass": [6100, 6200],
+            "useWeapon": [601, 602]
+        },
+        "Clergy": {
+            "name": "성직자",
+            "nameEng": "Clergy",
+            "code": 7000,
+            "prevClass": [],
+            "nextClass": [7100, 7200],
+            "useWeapon": [701, 702]
+        }
+    },
+    "1st": {
+        "Berserk": {
+            "name": "광전사",
+            "nameEng": "Berserk",
+            "code": 1100,
+            "prevClass": [1000],
+            "nextClass": [1110],
+            "useWeapon": [101]
+        },
+        "Knight": {
+            "name": "기사",
+            "nameEng": "Knight",
+            "code": 1200,
+            "prevClass": [1000],
+            "nextClass": [1210],
+            "useWeapon": [102]
+        },
+        "Swordman": {
+            "name": "검사",
+            "nameEng": "Swordman",
+            "code": 1300,
+            "prevClass": [1000],
+            "nextClass": [1310],
+            "useWeapon": [103]
+        },
+        "Fighter": {
+            "name": "파이터",
+            "nameEng": "Fighter",
+            "code": 2100,
+            "prevClass": [2000],
+            "nextClass": [2110],
+            "useWeapon": [201]
+        },
+        "Mystic": {
+            "name": "격투가",
+            "nameEng": "Mystic",
+            "code": 2200,
+            "prevClass": [2000],
+            "nextClass": [2210],
+            "useWeapon": [202]
+        },
+        "Thief": {
+            "name": "도적",
+            "nameEng": "Thief",
+            "code": 3100,
+            "prevClass": [3000],
+            "nextClass": [3110],
+            "useWeapon": [301]
+        },
+        "Assassin": {
+            "name": "암살자",
+            "nameEng": "Assassin",
+            "code": 3200,
+            "prevClass": [3000],
+            "nextClass": [3210],
+            "useWeapon": [302]
+        },
+        "Hunter": {
+            "name": "궁수",
+            "nameEng": "Hunter",
+            "code": 4100,
+            "prevClass": [4000],
+            "nextClass": [4110],
+            "useWeapon": [401]
+        },
+        "Gunslinger": {
+            "name": "거너",
+            "nameEng": "Gunslinger",
+            "code": 4200,
+            "prevClass": [4000],
+            "nextClass": [4210],
+            "useWeapon": [402]
+        },
+        "Mage": {
+            "name": "위저드",
+            "nameEng": "Mage",
+            "code": 5100,
+            "prevClass": [5000],
+            "nextClass": [5110],
+            "useWeapon": [501]
+        },
+        "Elementalist": {
+            "name": "원소술사",
+            "nameEng": "Elementalist",
+            "code": 5200,
+            "prevClass": [5000],
+            "nextClass": [5210],
+            "useWeapon": [502]
+        },
+        "Summoner": {
+            "name": "소환술사",
+            "nameEng": "Summoner",
+            "code": 5300,
+            "prevClass": [5000],
+            "nextClass": [5310],
+            "useWeapon": [503]
+        },
+        "DarkMage": {
+            "name": "다크위저드",
+            "nameEng": "DarkMage",
+            "code": 6100,
+            "prevClass": [6000],
+            "nextClass": [6110],
+            "useWeapon": [601]
+        },
+        "Necromancer": {
+            "name": "사령술사",
+            "nameEng": "Necromancer",
+            "code": 6200,
+            "prevClass": [6000],
+            "nextClass": [6210],
+            "useWeapon": [602]
+        },
+        "Cleric": {
+            "name": "사제",
+            "nameEng": "Cleric",
+            "code": 7100,
+            "prevClass": [7000],
+            "nextClass": [7110],
+            "useWeapon": [701]
+        },
+        "Inquisitor": {
+            "name": "비숍",
+            "nameEng": "Inquisitor",
+            "code": 7200,
+            "prevClass": [7000],
+            "nextClass": [7210],
+            "useWeapon": [702]
+        }
+    },
+    "2nd": {
+        "Berserk2": {
+            "name": "버서커",
+            "nameEng": "Berserk2",
+            "code": 1110,
+            "prevClass": [1100],
+            "nextClass": [1111],
+            "useWeapon": [101]
+        },
+        "Knight2": {
+            "name": "나이트",
+            "nameEng": "Knight2",
+            "code": 1210,
+            "prevClass": [1200],
+            "nextClass": [1211],
+            "useWeapon": [102]
+        },
+        "Swordman2": {
+            "name": "소드마스터",
+            "nameEng": "Swordman2",
+            "code": 1310,
+            "prevClass": [1300],
+            "nextClass": [1311],
+            "useWeapon": [103]
+        },
+        "Fighter2": {
+            "name": "스트라이커",
+            "nameEng": "Fighter2",
+            "code": 2110,
+            "prevClass": [2100],
+            "nextClass": [2111],
+            "useWeapon": [201]
+        },
+        "Mystic2": {
+            "name": "미스틱",
+            "nameEng": "Mystic2",
+            "code": 2210,
+            "prevClass": [2200],
+            "nextClass": [2211],
+            "useWeapon": [202]
+        },
+        "Thief2": {
+            "name": "시프",
+            "nameEng": "Thief2",
+            "code": 3110,
+            "prevClass": [3100],
+            "nextClass": [3111],
+            "useWeapon": [301]
+        },
+        "Assassin2": {
+            "name": "어쌔신",
+            "nameEng": "Assassin2",
+            "code": 3210,
+            "prevClass": [3200],
+            "nextClass": [3211],
+            "useWeapon": [302]
+        },
+        "Hunter2": {
+            "name": "헌터",
+            "nameEng": "Hunter2",
+            "code": 4110,
+            "prevClass": [4100],
+            "nextClass": [4111],
+            "useWeapon": [401]
+        },
+        "Gunslinger2": {
+            "name": "건슬링거",
+            "nameEng": "Gunslinger2",
+            "code": 4210,
+            "prevClass": [4211],
+            "nextClass": [4200],
+            "useWeapon": [402]
+        },
+        "Mage2": {
+            "name": "메이지",
+            "nameEng": "Mage2",
+            "code": 5110,
+            "prevClass": [5100],
+            "nextClass": [5111],
+            "useWeapon": [501]
+        },
+        "Elementalist2": {
+            "name": "엘리멘탈리스트",
+            "nameEng": "Elementalist2",
+            "code": 5210,
+            "prevClass": [5200],
+            "nextClass": [5211],
+            "useWeapon": [502]
+        },
+        "Summoner2": {
+            "name": "서머너",
+            "nameEng": "Summoner2",
+            "code": 5310,
+            "prevClass": [5300],
+            "nextClass": [5311],
+            "useWeapon": [503]
+        },
+        "DarkMage2": {
+            "name": "다크메이지",
+            "nameEng": "DarkMage2",
+            "code": 6110,
+            "prevClass": [6100],
+            "nextClass": [6111],
+            "useWeapon": [601]
+        },
+        "Necromancer2": {
+            "name": "네크로멘서",
+            "nameEng": "Necromancer2",
+            "code": 6210,
+            "prevClass": [6200],
+            "nextClass": [6111],
+            "useWeapon": [602]
+        },
+        "Cleric2": {
+            "name": "클레릭",
+            "nameEng": "Cleric2",
+            "code": 7110,
+            "prevClass": [7100],
+            "nextClass": [7111],
+            "useWeapon": [701]
+        },
+        "Inquisitor2": {
+            "name": "이단심문관",
+            "nameEng": "Inquisitor2",
+            "code": 7210,
+            "prevClass": [7200],
+            "nextClass": [7211],
+            "useWeapon": [702]
+        }
+    },
+    "3rd": {
+        "Berserk3": {
+            "name": "광마",
+            "nameEng": "Berserk3",
+            "code": 1111,
+            "prevClass": [1110],
+            "nextClass": [],
+            "useWeapon": [101]
+        },
+        "Knight3": {
+            "name": "도제",
+            "nameEng": "Knight3",
+            "code": 1211,
+            "prevClass": [1210],
+            "nextClass": [],
+            "useWeapon": [102]
+        },
+        "Swordman3": {
+            "name": "검성",
+            "nameEng": "Swordman3",
+            "code": 1311,
+            "prevClass": [1310],
+            "nextClass": [],
+            "useWeapon": [103]
+        },
+        "Fighter3": {
+            "name": "무제",
+            "nameEng": "Fighter3",
+            "code": 2111,
+            "prevClass": [2110],
+            "nextClass": [],
+            "useWeapon": [201]
+        },
+        "Mystic3": {
+            "name": "투희",
+            "nameEng": "Mystic3",
+            "code": 2211,
+            "prevClass": [2210],
+            "nextClass": [],
+            "useWeapon": [202]
+        },
+        "Thief3": {
+            "name": "시프마스터",
+            "nameEng": "Thief3",
+            "code": 3111,
+            "prevClass": [3110],
+            "nextClass": [],
+            "useWeapon": [301]
+        },
+        "Assassin3": {
+            "name": "어쌔신마스터",
+            "nameEng": "Assassin3",
+            "code": 3211,
+            "prevClass": [3210],
+            "nextClass": [],
+            "useWeapon": [302]
+        },
+        "Hunter3": {
+            "name": "신궁",
+            "nameEng": "Hunter3",
+            "code": 4111,
+            "prevClass": [4110],
+            "nextClass": [],
+            "useWeapon": [401]
+        },
+        "Gunslinger3": {
+            "name": "스나이퍼",
+            "nameEng": "Gunslinger3",
+            "code": 4211,
+            "prevClass": [4210],
+            "nextClass": [],
+            "useWeapon": [402]
+        },
+        "Mage3": {
+            "name": "아크메이지",
+            "nameEng": "Mage3",
+            "code": 5111,
+            "prevClass": [5110],
+            "nextClass": [],
+            "useWeapon": [501]
+        },
+        "Elementalist3": {
+            "name": "엘리멘탈마스터",
+            "nameEng": "Elementalist3",
+            "code": 5211,
+            "prevClass": [5210],
+            "nextClass": [],
+            "useWeapon": [502]
+        },
+        "Summoner3": {
+            "name": "마스터 서머너",
+            "nameEng": "Summoner3",
+            "code": 5311,
+            "prevClass": [5310],
+            "nextClass": [],
+            "useWeapon": [503]
+        },
+        "DarkMage3": {
+            "name": "워록",
+            "nameEng": "DarkMage3",
+            "code": 6111,
+            "prevClass": [6110],
+            "nextClass": [],
+            "useWeapon": [601]
+        },
+        "Necromancer3": {
+            "name": "트루 네크로멘서",
+            "nameEng": "Necromancer3",
+            "code": 6211,
+            "prevClass": [6210],
+            "nextClass": [],
+            "useWeapon": [602]
+        },
+        "Cleric3": {
+            "name": "프리스트",
+            "nameEng": "Cleric3",
+            "code": 7111,
+            "prevClass": [7110],
+            "nextClass": [],
+            "useWeapon": [701]
+        },
+        "Inquisitor3": {
+            "name": "인퀴지터",
+            "nameEng": "Inquisitor3",
+            "code": 7211,
+            "prevClass": [7210],
+            "nextClass": [],
+            "useWeapon": [702]
+        }
+    }
+}

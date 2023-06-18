@@ -1,0 +1,100 @@
+{
+    "Physical": {
+        "Sword": {
+            "GreatSword": {
+                "name": "대검",
+                "nameEng": "GreatSword",
+                "code": 101
+            },
+            "OneHandedSword": {
+                "name": "한손검",
+                "nameEng": "OneHandedSword",
+                "code": 102
+            },
+            "TwoHandedSword": {
+                "name": "두손검",
+                "nameEng": "TwoHandedSword",
+                "code": 103
+            }
+        },
+        "Glove": {
+            "Knuckles": {
+                "name": "너클",
+                "nameEng": "Knuckles",
+                "code": 201
+            },
+            "Gauntlet": {
+                "name": "권갑",
+                "nameEng": "Gauntlet",
+                "code": 202
+            }
+        },
+        "HiddenWeapon": {
+            "Dagger": {
+                "name": "단검",
+                "nameEng": "Dagger",
+                "code": 301
+            },
+            "ArmBand": {
+                "name": "아대",
+                "nameEng": "ArmBand",
+                "code": 302
+            }
+        },
+        "RangedWeapon": {
+            "Bow": {
+                "name": "활",
+                "nameEng": "Bow",
+                "code": 401
+            },
+            "Gun": {
+                "name": "총",
+                "nameEng": "Gun",
+                "code": 402
+            }
+        }
+    },
+    "Magical": {
+        "Magician": {
+            "Staff": {
+                "name": "스태프",
+                "nameEng": "Staff",
+                "code": 501
+            },
+            "Wand": {
+                "name": "완드",
+                "nameEng": "Wand",
+                "code": 502
+            },
+            "Orb": {
+                "name": "오브",
+                "nameEng": "Orb",
+                "code": 503
+            }
+        },
+        "DarkMagician": {
+            "Rosario": {
+                "name": "염주",
+                "nameEng": "Rosario",
+                "code": 601
+            },
+            "NecromanticScroll": {
+                "name": "강령술서",
+                "nameEng": "NecromanticScroll",
+                "code": 602
+            }
+        },
+        "Clergy": {
+            "Bable": {
+                "name": "성경",
+                "nameEng": "Bable",
+                "code": 701
+            },
+            "Cross": {
+                "name": "십자가",
+                "nameEng": "Cross",
+                "code": 702
+            }
+        }
+    }
+}

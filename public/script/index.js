@@ -144,7 +144,8 @@ function socket_on(){
         // 로그인 성공
         else{
             loggedin = true;
-            new Function(result);
+            console.log(result)
+            new Function(result)();
         }
     })
 }
